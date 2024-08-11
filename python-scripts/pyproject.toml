@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-scripts"
+version = "0.1.0"
+description = ""
+authors = ["Elias Rangel"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.0.1"
+pandas = "^2.2.2"
+graphviz = "^0.20.3"
+CairoSVG = "^2.7.1"
+networkx = "^3.3"
+matplotlib = "^3.9.1.post1"
+scipy = "^1.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
